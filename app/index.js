@@ -6,7 +6,7 @@ function component(){
     var element = j('<div></div>')
 
     // element.innerHTML = _.join(['Hello','Webpack'], ' ')
-    element.html(_.join(['Hello','Webpack'], ' '))
+    element.html(_.join(['Hello','Webpack'], ' +'))
 
     // return element
     return element.get(0)

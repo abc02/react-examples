@@ -6,7 +6,7 @@ function component(){
     var element = j('<div></div>')
 
     // element.innerHTML = _.join(['Hello','Webpack'], ' ')
-    element.html(_.join(['Hi','webpack-dev-serve --open'], ' '));
+    element.html(_.join(['Hi','不会热加载'], ' '));
 
     // return element
     return element.get(0)

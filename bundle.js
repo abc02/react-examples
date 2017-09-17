@@ -81,7 +81,7 @@ function component(){
     var element = __WEBPACK_IMPORTED_MODULE_0_jquery___default()('<div></div>')
 
     // element.innerHTML = _.join(['Hello','Webpack'], ' ')
-    element.html(__WEBPACK_IMPORTED_MODULE_1_lodash___default.a.join(['Hello','Webpack'], ' +'))
+    element.html(__WEBPACK_IMPORTED_MODULE_1_lodash___default.a.join(['Hi','Webpack-dev-server'], ' '));
 
     // return element
     return element.get(0)
